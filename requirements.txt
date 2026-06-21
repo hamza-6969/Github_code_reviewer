@@ -1,0 +1,4 @@
+response 
+langchain
+python-dotenv
+langchain-core
