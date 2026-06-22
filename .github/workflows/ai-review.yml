@@ -13,7 +13,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Show PR Info
-        run: |
-          echo "PR Number: ${{ github.event.pull_request.number }}"
-          echo "PR Title: ${{ github.event.pull_request.title }}"
+      - name: Run AI Review
+        env:
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          PR_TITLE: ${{ github.event.pull_request.title }}
+        run: python main.py
