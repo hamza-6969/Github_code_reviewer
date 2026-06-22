@@ -3,3 +3,8 @@ langchain
 python-dotenv
 langchain-core
 langchain_ollama
+pytest
+pytest-mock
+requests
+pydantic
+langgraph
