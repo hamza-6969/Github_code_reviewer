@@ -2,3 +2,4 @@ response
 langchain
 python-dotenv
 langchain-core
+langchain_ollama
